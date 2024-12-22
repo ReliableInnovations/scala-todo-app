@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = true[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating [0m
+[0m[[0m[33mwarn[0m] [0m[0mFound version conflict(s) in library dependencies; some are suspected to be binary incompatible:[0m
+[0m[[0m[33mwarn[0m] [0m[0m	* org.slf4j:slf4j-api:2.0.7 is selected over {1.7.36}[0m
+[0m[[0m[33mwarn[0m] [0m[0m	    +- com.typesafe.akka:akka-slf4j_2.13:2.6.20           (depends on 1.7.36)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	    +- com.typesafe.akka:akka-actor-typed_2.13:2.6.20     (depends on 1.7.36)[0m
+[0m[[0m[0minfo[0m] [0m[0mHere are other dependency conflicts that were resolved:[0m
+[0m[[0m[0minfo[0m] [0m[0m	* com.typesafe:config:1.4.2 is selected over 1.4.0[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe.akka:akka-actor_2.13:2.6.20           (depends on 1.4.2)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe:ssl-config-core_2.13:0.4.3            (depends on 1.4.0)[0m
+[0m[[0m[0minfo[0m] [0m[0m	* org.scala-lang:scala-library:2.13.15 is selected over {2.13.1, 2.13.8, 2.13.3, 2.13.5, 2.13.0}[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- scala-to-do-app:scala-to-do-app_2.13:0.1.0-SNAPSHOT (depends on 2.13.15)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- org.scala-lang.modules:scala-parser-combinators_2.13:1.1.2 (depends on 2.13.0)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- org.scala-lang.modules:scala-java8-compat_2.13:1.0.0 (depends on 2.13.5)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- io.spray:spray-json_2.13:1.3.6                     (depends on 2.13.3)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe.akka:akka-stream_2.13:2.6.20          (depends on 2.13.8)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe.akka:akka-slf4j_2.13:2.6.20           (depends on 2.13.8)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe.akka:akka-parsing_2.13:10.2.9         (depends on 2.13.8)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe.akka:akka-http_2.13:10.2.9            (depends on 2.13.8)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe.akka:akka-http-spray-json_2.13:10.2.9 (depends on 2.13.8)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe.akka:akka-http-core_2.13:10.2.9       (depends on 2.13.8)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe.akka:akka-actor_2.13:2.6.20           (depends on 2.13.8)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe.akka:akka-actor-typed_2.13:2.6.20     (depends on 2.13.8)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe:ssl-config-core_2.13:0.4.3            (depends on 2.13.1)[0m
